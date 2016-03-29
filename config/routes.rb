@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'searches/new'
+
+  get 'searches/create'
+
+  get 'searches/show'
+
+  get 'products/index'
+
   root to: 'products#index'
   resources :products
   resources :searches

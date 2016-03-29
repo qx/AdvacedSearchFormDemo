@@ -1,3 +1,16 @@
+# == Schema Information
+#
+# Table name: products
+#
+#  id          :integer          not null, primary key
+#  name        :string
+#  category_id :integer
+#  price       :decimal(, )
+#  released_at :date
+#  created_at  :datetime         not null
+#  updated_at  :datetime         not null
+#
+
 require 'test_helper'
 
 class ProductTest < ActiveSupport::TestCase
